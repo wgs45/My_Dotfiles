@@ -9,3 +9,4 @@
 -> Exa 
 -> Neofetch
 -> Powershell
+-> pls-cli
