@@ -1,4 +1,16 @@
-set fish_greeting ""
+set fish_greeting "
+                                             
+ _____  _       _      _____  _         _  _ 
+|   __||_| ___ | |_   |   __|| |_  ___ | || |
+|   __|| ||_ -||   |  |__   ||   || -_|| || |
+|__|   |_||___||_|_|  |_____||_|_||___||_||_|
+                                             
+
+--> Shell Login Succesfull <--
+
+Proceed...
+
+"
 
 set -gx TERM xterm-256color
 
@@ -13,4 +25,3 @@ set -g theme_hostname always
 alias ls "ls -p -G"
 alias la "ls -A"
 alias ll "exa --long --icons --git --header --created --modified"
-alias lt "exa --tree --icons --git --long --level=2 --header --created --modified"
