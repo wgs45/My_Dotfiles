@@ -24,4 +24,5 @@ set -g theme_hostname always
 # aliases
 alias ls "ls -p -G"
 alias la "ls -A"
-alias ll "exa --long --icons --git --header --created --modified"
+alias ll "eza --long --icons --git --header --created --modified --no-user"
+alias lt "eza --tree --icons --git --long --level=2 --header --created --modified --no-user"
