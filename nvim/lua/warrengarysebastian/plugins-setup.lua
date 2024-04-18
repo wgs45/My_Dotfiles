@@ -103,6 +103,20 @@ return packer.startup(function(use)
 	use("windwp/nvim-autopairs") -- autoclose parens, brackets, quotes, etc...
 	use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" }) -- autoclose tags
 
+	-- tailwind css colorizer-cmp
+	use({
+		"roobert/tailwindcss-colorizer-cmp.nvim",
+		-- optionally, override the default options:
+		config = function()
+			require("tailwindcss-colorizer-cmp").setup({
+				color_square_width = 2,
+			})
+		end,
+	})
+
+	-- css colorizer
+	use("NvChad/nvim-colorizer.lua") -- colorizer
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
