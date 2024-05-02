@@ -24,5 +24,13 @@ set -g theme_hostname always
 # aliases
 alias ls "ls -p -G"
 alias la "ls -A"
-alias ll "eza --long --icons --git --header --created --modified --no-user"
-alias lt "eza --tree --icons --git --long --level=2 --header --created --modified --no-user"
+alias ll "eza --long --icons --group --git --header --created --modified --no-user"
+alias lt "eza --tree --icons --group --git --long --level=2 --header --created --modified --no-user"
+alias bat "bat"
+alias rp "rip"
+alias rpu "rip -u"
+# alias scc "scc"
+# alias http "http"
+# alias z "z"
+# alias rg "rg" ripgrep
+# fuzzy finder (fzf) installed using fish
