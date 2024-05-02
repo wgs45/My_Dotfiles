@@ -10,3 +10,8 @@
 -> Neofetch
 -> Powershell
 -> pls-cli
+-> fzf (Fisher)
+-> rip
+-> ripgrep
+-> fd (better find)
+-> scc
