@@ -6,12 +6,14 @@
 -> Nerd fonts
 -> Z for fish
 -> Nvim
--> Exa 
+-> Eza 
 -> Neofetch
 -> Powershell
 -> pls-cli
+-> bat
 -> fzf (Fisher)
 -> rip
 -> ripgrep
 -> fd (better find)
 -> scc
+-> httpie
