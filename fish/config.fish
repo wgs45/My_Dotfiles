@@ -1,16 +1,7 @@
-set fish_greeting "
-                                             
- _____  _       _      _____  _         _  _ 
-|   __||_| ___ | |_   |   __|| |_  ___ | || |
-|   __|| ||_ -||   |  |__   ||   || -_|| || |
-|__|   |_||___||_|_|  |_____||_|_||___||_||_|
-                                             
-
---> Shell Login Succesfull <--
-
-Proceed...
-
-"
+function fish_greeting
+neofetch
+end
+funcsave fish_greeting
 
 set -gx TERM xterm-256color
 
