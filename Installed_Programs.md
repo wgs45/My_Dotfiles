@@ -17,3 +17,4 @@
 -> fd (better find)
 -> scc
 -> httpie
+-> Spicetify
