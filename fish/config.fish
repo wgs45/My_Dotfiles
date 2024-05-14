@@ -21,6 +21,7 @@ alias bat bat
 alias rp rip
 alias rpu "rip -u"
 alias fix fuck
+alias ff "fzf --preview 'bat --color=always {}'"
 
 # aliases for tmux
 alias txn "tmux neww"

@@ -5,7 +5,7 @@
 local opt = vim.opt -- for conciseness
 
 -- line numbers
--- opt.relativenumber = true -- show relative line numbers
+opt.relativenumber = false -- show relative line numbers (disable)
 opt.number = true -- shows absolute line number on cursor line (when relative number is on)
 
 -- Basic configurations
@@ -26,7 +26,7 @@ opt.wildignore:append({ "*/node_modules/*" })
 
 -- tabs & indentation
 opt.tabstop = 4 -- 2 spaces for tabs (prettier default)
-opt.shiftwidth = 4 -- 2 spaces for indent width
+opt.shiftwidth = 4 -- 2 spaces for indent width (default)
 opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
 opt.smartindent = true
