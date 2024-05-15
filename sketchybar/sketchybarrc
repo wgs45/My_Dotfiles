@@ -1,3 +1,4 @@
+# Reference: https://github.com/tcmmichaelb139/.dotfiles/tree/main/sketchybar/.config/sketchybar
 #!/usr/bin/env bash
 
 source "$HOME/.config/sketchybar/variables.sh" # Loads all defined colors
