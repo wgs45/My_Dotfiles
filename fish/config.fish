@@ -17,11 +17,10 @@ alias ls "ls -p -G"
 alias la "ls -A"
 alias ll "eza --long --icons --group --git --header --created --modified --no-user"
 alias lt "eza --tree --icons --group --git --long --level=2 --header --created --modified --no-user"
-alias bat bat
+alias bat "bat --color=always --line-range=:500"
 alias rp rip
 alias rpu "rip -u"
-alias fix fuck
-alias ff "fzf --preview 'bat --color=always {}'"
+alias ff "fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
 
 # aliases for tmux
 alias txn "tmux neww"
@@ -36,4 +35,4 @@ alias txl "tmux list-sessions"
 # alias rg "rg" ripgrep
 # fuzzy finder (fzf) installed using fish
 
-thefuck --alias | source
+# thefuck --alias | source
