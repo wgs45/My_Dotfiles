@@ -43,23 +43,6 @@ To set up these dotfiles on your machine, you can clone this repository and syml
    cd dotfiles
    ```
 
-2. **Create symlinks for the dotfiles:**
-   ```sh
-   ln -s $(pwd)/.bashrc ~/.bashrc
-   ln -s $(pwd)/.zshrc ~/.zshrc
-   ln -s $(pwd)/.vimrc ~/.vimrc
-   ln -s $(pwd)/.tmux.conf ~/.tmux.conf
-   ln -s $(pwd)/.gitconfig ~/.gitconfig
-   ln -s $(pwd)/.aliases ~/.aliases
-   ln -s $(pwd)/.functions ~/.functions
-   ```
-
-3. **Reload the shell:**
-   ```sh
-   source ~/.bashrc   # for bash users
-   source ~/.zshrc    # for zsh users
-   ```
-
 ## Usage
 
 Once the dotfiles are set up, you can customize them further to suit your needs. Feel free to explore the configuration files and make any necessary changes.
