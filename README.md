@@ -63,9 +63,9 @@ Please ensure that your contributions adhere to the existing code style and incl
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Disclaimer
+## Disclaimer (Use it on your own risk!)
 
-These dotfiles are highly personalized and configured to fit my specific workflow and preferences. They may not be suitable for everyone. Before using or modifying these dotfiles, please review the configurations to ensure they align with your needs and do not conflict with your existing setup. I do not responsible for any damage, use it on your own risk!
+These dotfiles are highly personalized and configured to fit my specific workflow and preferences. They may not be suitable for everyone. Before using or modifying these dotfiles, please review the configurations to ensure they align with your needs and do not conflict with your existing setup. You are solely responsible for any consequences, losses, or damages that may result from using the information, resources, or code provided in this repository. You acknowledge and agree that we are not liable for any such consequences, losses, or damages.
 
 ## Contact
 
