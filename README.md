@@ -65,7 +65,7 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 
 ## Disclaimer
 
-These dotfiles are highly personalized and configured to fit my specific workflow and preferences. They may not be suitable for everyone. Before using or modifying these dotfiles, please review the configurations to ensure they align with your needs and do not conflict with your existing setup. I do not responsible for any possible damages, use it on your own risk!
+These dotfiles are highly personalized and configured to fit my specific workflow and preferences. They may not be suitable for everyone. Before using or modifying these dotfiles, please review the configurations to ensure they align with your needs and do not conflict with your existing setup. I do not responsible for any damage, use it on your own risk!
 
 ## Contact
 
