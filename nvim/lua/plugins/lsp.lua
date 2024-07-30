@@ -14,6 +14,8 @@ return {
                 "css-lsp",
                 "clangd",
                 "csharp-language-server",
+                "python-lsp-server",
+                "powershell-editor-services",
             })
         end,
     },
@@ -24,7 +26,7 @@ return {
         event = "LazyFile",
         dependencies = {
             { "folke/neoconf.nvim", cmd = "Neoconf", config = false, dependencies = { "nvim-lspconfig" } },
-            { "folke/neodev.nvim", opts = {} },
+            -- { "folke/neodev.nvim", opts = {} },
             "mason.nvim",
             "williamboman/mason-lspconfig.nvim",
         },
@@ -77,6 +79,19 @@ return {
             -- LSP Server Settings
             ---@type lspconfig.options
             servers = {
+                pylsp = {
+                    pylsp = {
+                        plugins = {
+                            pycodestyle = {
+                                ignore = { "W391" },
+                                maxLineLength = 150,
+                            },
+                        },
+                    },
+                },
+                clangd = {},
+                cssls = {},
+                html = {},
                 lua_ls = {
                     -- mason = false, -- set to false if you don't want this server to be installed with mason
                     -- Use this to add any additional keymaps
