@@ -1,3 +1,5 @@
+# starship reference by: https://github.com/andrew8088
+
 format = """
 $username\
 $hostname\
