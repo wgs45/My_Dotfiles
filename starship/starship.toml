@@ -14,6 +14,7 @@ $rust\
 $ruby\
 $package\
 $python\
+$php\
 $golang\
 $swift\
 $nodejs\
@@ -36,6 +37,15 @@ format = "[$symbol($version )]($style)"
 format = "[$symbol($version )]($style)"
 
 [ruby]
+format = "[$symbol($version )]($style)"
+
+[java]
+format = "[$symbol($version )]($style)"
+
+[php]
+format = "[$symbol($version )]($style)"
+
+[golang]
 format = "[$symbol($version )]($style)"
 
 [fill]
