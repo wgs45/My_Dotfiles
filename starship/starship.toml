@@ -18,7 +18,7 @@ $php\
 $golang\
 $swift\
 $nodejs\
-$cmd_duration $jobs $time\
+$cmd_duration $jobs $status $time\
 $line_break\
 $character"""
 
@@ -101,4 +101,9 @@ symbol = " "
 disabled = false
 style = "bold white"
 format = "[$time]($style)"
+
+[status]
+format = '[✗ $status](bold red) '
+success_symbol = ''
+map_symbol = false
 
