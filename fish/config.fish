@@ -20,7 +20,7 @@ set -g theme_hostname always
 
 # aliases
 alias ls "ls -p -G"
-alias la "ls -A"
+alias la "eza -all --long --icons --group --git --header --created --modified --no-user -o"
 alias ll "eza --long --icons --group --git --header --created --modified --no-user -o"
 alias lt "eza --tree --icons --group --git --long --level=2 --header --created --modified --no-user -o"
 alias bat "bat --color=always --line-range=:500"
