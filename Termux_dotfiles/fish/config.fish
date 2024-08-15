@@ -35,5 +35,11 @@ alias ff "fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}
 # alias z "z"
 # alias pls "pls-cli"
 
+# aliases for tmux
+alias txn "tmux neww"
+alias txk "tmux kill-session"
+alias txd "tmux detach"
+alias txl "tmux list-sessions"
+
 starship init fish | source
 
