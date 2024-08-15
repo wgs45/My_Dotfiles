@@ -1,9 +1,15 @@
-function fish_greeting
-    neofetch
-end
-funcsave fish_greeting
+# shell greeting
+
+set fish_greeting neofetch
+
+#function fish_greeting
+#    neofetch
+#end
+#funcsave fish_greeting
 
 set -gx TERM xterm-256color
+
+starship init fish | source
 
 # theme
 set -g theme_color_scheme terminal-dark
