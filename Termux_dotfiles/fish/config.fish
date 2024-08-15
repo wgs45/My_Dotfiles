@@ -1,12 +1,12 @@
 # shell greeting
 
-#set fish_greeting neofetch --ascii_distro arch_small 
+set fish_greeting neofetch --ascii_distro arch_small 
 
-function fish_greeting
-    neofetch --ascii_distro arch_small
-    date  
-end
-funcsave fish_greeting
+#function fish_greeting
+#    neofetch --ascii_distro arch_small
+#    date  
+#end
+#funcsave fish_greeting
 
 set -gx TERM xterm-256color
 
