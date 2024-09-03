@@ -22,7 +22,7 @@ $cmd_duration $jobs $status $time\
 $line_break\
 $character"""
 
-scan_timeout = 10
+scan_timeout = 20
 
 [nodejs]
 format = "[$symbol($version )]($style)"
