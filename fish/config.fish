@@ -42,5 +42,6 @@ alias txl "tmux list-sessions"
 # fuzzy finder (fzf) installed using fish
 # ffmpeg (Powerful video and music tools)
 # yt-dlp (Download files from youtube)
+# fd (better find)
 
 # thefuck --alias | source
