@@ -39,7 +39,7 @@ To set up these dotfiles on your machine, you can clone this repository and syml
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-github-username/dotfiles.git
+   git clone https://github.com/wgs45/dotfiles.git
    cd dotfiles
    ```
 
