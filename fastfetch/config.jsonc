@@ -4,103 +4,119 @@
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
     "type": "kitty-direct",
-    "source": "~/.config/fastfetch/eldritch.png",
+    "source": "~/.config/fastfetch/anime_girl_2.png",
     "padding": {
-      "right": 10,
-      "top": 6
-    }
+      "right": 0,
+      "top": 2,
+    },
   },
   "general": {
-    "multithreading": true
+    "multithreading": true,
   },
   "display": {
-    "separator": "➜   "
+    "separator": "➜   ",
   },
   "modules": [
     "break",
     {
-      "type": "title",
-      "format": "                                {6}{7}{8}"
-    },
-    "break",
-    {
       "type": "custom",
-      "format": "┌──────────────────────────────────────────────────────────────────────────────┐" // `\u001b` is `\033`, or `\e`
+      "format": "┌───────────────────────────── System Information ─────────────────────────────┐", // `\u001b` is `\033`, or `\e`
     },
     "break",
     {
-      "key": "     OS           ",
+      "key": "    󰘵 OS           ",
       "keyColor": "green",
-      "type": "os"
+      "type": "os",
     },
     {
       "key": "    󰌢 Machine      ",
       "keyColor": "cyan",
-      "type": "host"
+      "type": "host",
     },
     {
       "key": "     Kernel       ",
       "keyColor": "blue",
-      "type": "kernel"
+      "type": "kernel",
     },
     {
       "key": "    󰅐 Uptime       ",
       "keyColor": "green",
-      "type": "uptime"
+      "type": "uptime",
     },
     {
       "key": "     Packages     ",
       "keyColor": "cyan",
-      "type": "packages"
-    },
-    {
-      "key": "     WM           ",
-      "keyColor": "blue",
-      "type": "wm"
-    },
-    {
-      "key": "     Shell        ",
-      "keyColor": "green",
-      "type": "shell"
-    },
-    {
-      "key": "     Terminal     ",
-      "keyColor": "cyan",
-      "type": "terminal"
-    },
-    {
-      "key": "     Font         ",
-      "keyColor": "blue",
-      "type": "terminalfont"
-    },
-    {
-      "key": "    󰻠 CPU          ",
-      "keyColor": "green",
-      "type": "cpu"
-    },
-    {
-      "key": "    󰍛 GPU          ",
-      "keyColor": "cyan",
-      "type": "gpu"
-    },
-    {
-      "key": "    󰑭 Memory       ",
-      "keyColor": "blue",
-      "type": "memory"
+      "type": "packages",
     },
     "break",
     {
       "type": "custom",
-      "format": "└──────────────────────────────────────────────────────────────────────────────┘" // `\u001b` is `\033`, or `\e`
+      "format": " ────────────────────────────── Wayland Information ─────────────────────────── ", // `\u001b` is `\033`, or `\e`
     },
     "break",
+    {
+      "key": "     WM           ",
+      "keyColor": "blue",
+      "type": "wm",
+    },
+    {
+      "key": "    󰚗 DE           ",
+      "keyColor": "red",
+      "type": "de",
+    },
+    {
+      "key": "     Shell        ",
+      "keyColor": "green",
+      "type": "shell",
+    },
+    {
+      "key": "     Terminal     ",
+      "keyColor": "cyan",
+      "type": "terminal",
+    },
+    {
+      "key": "     Font         ",
+      "keyColor": "blue",
+      "type": "terminalfont",
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": " ────────────────────────────── Hardware Information ────────────────────────── ", // `\u001b` is `\033`, or `\e`
+    },
+    "break",
+    {
+      "key": "     Display      ",
+      "keyColor": "Red",
+      "type": "display",
+    },
+    {
+      "key": "    󰻠 CPU          ",
+      "keyColor": "green",
+      "type": "cpu",
+    },
+    {
+      "key": "    󰍛 GPU          ",
+      "keyColor": "cyan",
+      "type": "gpu",
+    },
+    {
+      "key": "    󰑭 Memory       ",
+      "keyColor": "blue",
+      "type": "memory",
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "└──────────────────────────────────────────────────────────────────────────────┘", // `\u001b` is `\033`, or `\e`
+    },
     {
       "type": "colors",
       "paddingLeft": 34,
       "symbol": "circle",
       "block": {
-        "width": 10
-      }
-    }
-  ]
+        "width": 10,
+      },
+    },
+  ],
 }
