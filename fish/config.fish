@@ -8,7 +8,7 @@ set fish_greeting neofetch
 #funcsave fish_greeting
 
 # set -gx TERM xterm-256color
-set -x TERM xterm-kitty
+set -gx TERM xterm-kitty
 
 starship init fish | source
 
