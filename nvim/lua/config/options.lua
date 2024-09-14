@@ -9,6 +9,7 @@ opt.relativenumber = false -- show relative line numbers (disable)
 opt.number = true -- shows absolute line number on cursor line (when relative number is on)
 
 -- Basic configurations
+opt.cursorline = false
 opt.encoding = "utf-8"
 opt.fileencoding = "utf-8"
 opt.title = true
