@@ -28,6 +28,7 @@ alias bat "bat --color=always --line-range=:500"
 alias rp rip
 alias rpu "rip -u"
 alias ff "fzf --preview 'bat --color=always --style=numbers --line-range=:5000 {}'"
+alias neofetch "fastfetch"
 
 # aliases for tmux
 alias txn "tmux neww"
